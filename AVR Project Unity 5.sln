@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVR Project Unity 5", "Assembly-CSharp.csproj", "{A07E9DC7-7528-BA31-84A5-D2F53E40755C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A07E9DC7-7528-BA31-84A5-D2F53E40755C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07E9DC7-7528-BA31-84A5-D2F53E40755C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07E9DC7-7528-BA31-84A5-D2F53E40755C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07E9DC7-7528-BA31-84A5-D2F53E40755C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
