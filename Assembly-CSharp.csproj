@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Enter.cs" />
      <Compile Include="Assets\Haptic Project Components\Scripts\Converter\Converter.cs" />
      <Compile Include="Assets\Haptic Project Components\Scripts\Force Effects\ConstantForceEffect.cs" />
      <Compile Include="Assets\Haptic Project Components\Scripts\Force Effects\FrictionEffect.cs" />
@@ -72,12 +73,16 @@
      <Compile Include="Assets\Haptic Project Components\Scripts\Script Scene\SimpleShapeManipulationAndPhysics.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\BlockPuzzleController.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\CameraRotate.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\CollisionDetection\BlueCylinderCollision.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\CollisionDetection\GreenCylinderCollision.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\CollisionDetection\RedCylinderCollision.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\ErrorDemo.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\GetTicPosition.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\HapticMouse.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\InstantiationExample.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\MetersDemo.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\RESTExample.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\RedTorusCollision.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\TextureDemoScript.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\VibrationDemoScript.cs" />
      <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\buttonTestScript.cs" />
@@ -87,6 +92,7 @@
      <Compile Include="Assets\OpenHaptics\HapticScripts\HapticPlugin.cs" />
      <Compile Include="Assets\OpenHaptics\HapticScripts\HapticPluginSafetyScript.cs" />
      <Compile Include="Assets\OpenHaptics\HapticScripts\HapticSurface.cs" />
+     <Compile Include="Assets\ScoreManager.cs" />
      <None Include="Assets\Haptic Project Components\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\license.txt" />
  <Reference Include="UnityEngine.UI">

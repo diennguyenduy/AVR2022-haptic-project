@@ -41,15 +41,15 @@ public class GetTicPosition : MonoBehaviour {
 		Vector3 position = TipTransform.position;
 
 		// convert vector3 to string
-		string PositionString = position.x + "," + position.y + "," + position.z;
+		string PositionString = position.x + " " + position.y + " " + position.z;
 
 		// send data to server
-		StartCoroutine(Upload(PositionString));
+		//StartCoroutine(Upload(PositionString));
 
 		//update the position
 		//transform.position = transform.position + new Vector3(horizontalInput * movementSpeed * Time.deltaTime, verticalInput * movementSpeed * Time.deltaTime, 0);
 
 		//output to log the position change
-		Debug.Log(PositionString);
+		//Debug.Log(PositionString);
 	}
 }
