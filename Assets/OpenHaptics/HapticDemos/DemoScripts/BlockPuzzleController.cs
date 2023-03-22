@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlockPuzzleController : MonoBehaviour {
 
-	public GameObject[] ToyBlocks = {null, null, null, null};
+	public GameObject[] ToyBlocks = {null, null, null};
 	private Vector3[] ToyPosition;
 	private Quaternion[] ToyRotation;
 
@@ -24,6 +24,8 @@ public class BlockPuzzleController : MonoBehaviour {
 	// Return the blocks to their original position.
 	void ResetBlocks()
 	{
+		ScoreManager.instance.resetPoint();
+	
 		if (ToyPosition.Length != ToyBlocks.Length) return;
 
 		for (int ii = 0; ii < ToyBlocks.Length; ii++)
@@ -41,11 +43,13 @@ public class BlockPuzzleController : MonoBehaviour {
 	{
 
 		// Return to starting position?
-		if (Input.GetKeyDown("space"))
-		{
-			ResetBlocks();
+		if (Input.GetKeyDown ("space")) {
+			ResetBlocks ();
 			return;
 		}
-
+		//else if (ScoreManager.instance.getScore () == 3) {
+		//	ResetBlocks ();
+		//	return;
+		//}
 	}
 }

@@ -94,6 +94,7 @@
      <Compile Include="Assets\OpenHaptics\HapticScripts\HapticSurface.cs" />
      <Compile Include="Assets\ScoreManager.cs" />
      <None Include="Assets\Haptic Project Components\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\spritefont_and_other\document_and_picturelist\readme.txt" />
      <None Include="Assets\license.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Hub/Editor/5.6.7f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
